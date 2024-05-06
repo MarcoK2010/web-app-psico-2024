@@ -6,12 +6,9 @@ import Login from './pages/login/Login'
 const App = () => {
   return (
 <BrowserRouter>
-<Routes>
-  
-          <Route path="/Login" element={      <Login/> } />
-
-      
-    </Routes>
+  <Routes>
+    <Route path="/" element={      <Login/> } />
+  </Routes>
 </BrowserRouter>
   );
 };
