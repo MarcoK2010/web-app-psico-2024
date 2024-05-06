@@ -1,14 +1,20 @@
-import { useState } from 'react'
+import React from 'react';
+import {BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './pages/login/Login'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+// Componente principal que define las rutas
+const App = () => {
   return (
-    <>
-      <Login/> 
-    </>
-  )
-}
+<BrowserRouter>
+<Routes>
+  
+          <Route path="/Login" element={      <Login/> } />
 
-export default App
+      
+    </Routes>
+</BrowserRouter>
+  );
+};
+
+export default App;
+
