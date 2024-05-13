@@ -22,7 +22,7 @@ const LoginForm = () => {
             </label>
             </div>
           <div className="pb-20 p-10"> 
-             <button className=" button rounded-3xl w-full h-16 text-white ">Log in</button>
+             <button className="btn button rounded-3xl w-full h-16 text-white text-xl">Log in</button>
           </div>
           <h2 className="text-gray-400">
             All data will be saved at our own private database and
