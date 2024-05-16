@@ -6,15 +6,12 @@ const Dashboard = () => {
   return (
     <>
  
-      <div className="absolute">
+      <div className="absolute justify-center w-full px-6 mt-6">
+        <NavBar/>
+      </div>
+          
           <SideBar />
-      </div>    
-     <NavBar />
-
-      
-        
-
-      
+  
     </>
   );
 };
