@@ -11,7 +11,7 @@
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu1 menu p-5 pt-40 w-80 min-h-full bg-base-200 text-base-content">
+            <ul className="menu1 menu p-5 pt-40 w-80  h-full bg-base-200 text-base-content">
               {/* Sidebar content here */}
               <li className="pb-5">
                 <a className="sideBarItem1  content-center h-16 text-white  font-semibold">

@@ -2,6 +2,7 @@ import React from "react";
 import SideBar from "../../components/SideBar";
 import NavBar from "../../components/NavBar";
 import DateCard from "./components/DateCard";
+import ChartCard from "./components/ChartCard";
 
 const Dashboard = () => {
   return (
@@ -15,8 +16,11 @@ const Dashboard = () => {
       <SideBar />
       <div className="pt-44 grid grid-cols-2 gap-4 pl-96">
            <DateCard/>
+           
       </div>
-      
+      <div   className=" grid grid-cols-2 gap-4 pl-96 pr-44 ">
+      <ChartCard/>
+      </div>
       </div>
 
   

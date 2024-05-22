@@ -40,7 +40,7 @@ const DateCard = () => {
         
 
            
-           <div className="card lg:card-side bg-base-100 shadow-2xl w-2/3 h-56 rounded-lg">
+           <div className="card lg:card-side bg-base-100 shadow-2xl w-2/3 h-56 rounded-lg ">
           
            <div className="date2 font-bold text-5xl content-center text-center p-5 ">
             <h1>
