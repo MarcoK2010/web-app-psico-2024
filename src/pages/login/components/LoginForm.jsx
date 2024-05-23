@@ -5,8 +5,8 @@ import './loginForm.css'
 const LoginForm = () => {
   return (
     <>
-    <div className="text-xl ">
-         <div className="card  bg-base-100 shadow-xl m-40">
+    <div className="text-xl">
+         <div className="card  bg-base-100 shadow-xl mt-40 mr-40 ml-40">
         <div className="card-body  text-center justify-items-center ">
           <div className="justify-items-center">
             <UserCircleIcon className="h-60 w-full text-white-500" />
