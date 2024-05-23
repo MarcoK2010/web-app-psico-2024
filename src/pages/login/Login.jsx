@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <>
     <div className="w-full">
-      <div className="grid grid-cols-2" >
+      <div className="flex justify-evenly flex-wrap-reverse" >
       
         <LoginForm/>
       

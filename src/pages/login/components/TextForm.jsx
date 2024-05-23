@@ -1,39 +1,29 @@
-import React from 'react'
-import logo from '../../../../assets/logo.png';
-import './loginForm.css'
+import React from "react";
+import logo from "../../../../assets/logo.png";
+import "./loginForm.css";
 
 const TextForm = () => {
   return (
     <>
-    <div className='text-right text-6xl font-black mt-40 mr-10'>
-        <h1>
-        El Patojismo’s Daniel
-        </h1>
-        <h1>
-            Padnos Wellness Center
-        </h1>
-       <h1>
-        WebApp
-       </h1>
-     <div className='text-4xl mt-40'>
-        <h1>
-            v1.0
-        </h1>
-     </div>
-    
-    <div className='grid grid-cols-2'>
-        <div  className= 'mt-40 ml-96 w-64'>
-       <img src={logo} alt="" /> 
-      </div>  
-      <div  className= 'mt-40 ml-56 w-64'>
-       <img src={logo} alt="" /> 
-      </div>  
-    </div>
-    
-      
-    </div>
-    </>
-  )
-}
+      <div className="text-center lg:text-right text-6xl font-black mt-0 lg:mt-10">
+        <h1>El Patojismo’s Daniel</h1>
+        <h1>Padnos Wellness</h1>
+        <h1>Center WebApp</h1>
+        <div className="text-4xl lg:mt-40">
+          <h1>v1.0</h1>
+        </div>
 
-export default TextForm
+        <div className="grid grid-cols-2 justify-items-end invisible lg:visible">
+          <div className="w-36 lg:w-64">
+            <img src={logo} alt="" />
+          </div>
+          <div className="w-36 lg:w-64">
+            <img src={logo} alt="" />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default TextForm;
