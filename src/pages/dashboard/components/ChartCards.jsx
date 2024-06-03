@@ -13,11 +13,13 @@ const ChartCards = () => {
 
         <BarChard />
 
-        <CircularChard />
+        <CircularChard porncentaje={67}/>
 
-        <CircularChard />
+        <CircularChard porncentaje={48}/>
 
-        <TextCard />
+        <TextCard texto={"List Appointments"}/>
+
+        <TextCard texto={"Generate Report"}/>
       </div>
     </div>
   );
