@@ -32,7 +32,7 @@ const NavBar = () => {
         <div className="navbar-center">
           <div className="flex flex-row justify-center items-center gap-2">
             <div className="w-16">
-              <img src={logo} alt="" />
+              <img src={logo} alt=""  />
             </div>
             <div className="text-xs font-black">
               Daniel Padnos Wellness

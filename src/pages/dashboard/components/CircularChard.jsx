@@ -4,7 +4,7 @@ import './circularChard.css'
 const CircularChard = ({porncentaje}) => {
   return (
     <>
-    <div className="col-start-3 col-end-3 pb-10 px-10">
+    <div className="col-start-3 col-end-3 pb-10 md:px-20">
         <div className="card w-80 py-4  shadow-2xl">
           <div className="card-body items-center text-center">
          <h1 className='font-bold text-2xl '>
