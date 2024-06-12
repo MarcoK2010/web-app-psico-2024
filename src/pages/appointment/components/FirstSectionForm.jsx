@@ -5,7 +5,7 @@ import DropDownHour from './DropDownHour'
 const FirstSectionForm = () => {
   return (
     <>
-        <div className='flex flex-wrap justify-evenly pt-10'>
+        <div className='flex flex-wrap justify-evenly pt-10 '>
             <DropDownCalendar/>
             <DropDownHour/>
         </div>

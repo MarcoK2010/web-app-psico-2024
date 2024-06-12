@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-module.exports =  {
-  content: ["./index.html", "./src/**/*.{html,js,ts,jsx,tsx}", "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js",],
+const withMT = require("@material-tailwind/react/utils/withMT"); 
+module.exports =  withMT( {
+  content: ["./index.html", "./src/**/*.{vue,html,js,ts,jsx,tsx}", "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js",],
   theme: {
     extend: {}, 
   },
@@ -8,5 +9,5 @@ module.exports =  {
     require("daisyui")
   ],
 
-}
+})
 
