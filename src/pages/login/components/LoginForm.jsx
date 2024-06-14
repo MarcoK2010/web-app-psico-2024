@@ -2,21 +2,10 @@ import React from "react";
 import {Link, BrowserRouter} from 'react-router-dom'
 import { UserCircleIcon } from "@heroicons/react/24/outline";
 import './loginForm.css'
-import axios from "axios"
 
-const baseURL = "http://192.168.0.5:8888/api/v1/docs/#/appointment/appointmentList";
 
 
 const LoginForm = () => {
-
-  
-  axios({
-    method: 'get',
-    url: baseURL,
-  })
-  .then((res) => console.log(res))
-  .catch((err) => console.log(err));
-
 
 
   return (
