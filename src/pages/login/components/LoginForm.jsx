@@ -1,8 +1,14 @@
 import React from "react";
 import { Link, BrowserRouter } from "react-router-dom";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
+import './loginForm.css'
+
+
+
 import "./loginForm.css";
 const LoginForm = () => {
+
+
   return (
     <>
       <div className="text-xl md:w-1/2 md:p-24 ">
