@@ -7,13 +7,15 @@ import Appointment from './pages/appointment/Appointment';
 // Componente principal que define las rutas
 const App = () => {
   return (
-<BrowserRouter>
+    
+      <BrowserRouter >
   <Routes>
     <Route path="/" element={      <Login/> } />
     <Route path="/dashboard" element={      <Dashboard/> } />
     <Route path="appointment" element={      <Appointment/> } />
   </Routes>
 </BrowserRouter>
+   
   );
 };
 

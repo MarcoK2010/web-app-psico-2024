@@ -74,7 +74,7 @@ const SideBar = () => {
           </div>
         </div> */}
 
-      <div className="drawer">
+      <div className="drawer" >
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
           
@@ -152,6 +152,7 @@ const SideBar = () => {
                   Add Appointment
                 </a>
               </li>
+
             </ul>
         </div>
       </div>

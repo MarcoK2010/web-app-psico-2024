@@ -5,7 +5,7 @@ import { Select, Option } from "@material-tailwind/react";
 const DropDownHour = () => {
   return (
    <>
-    <div className=" font-bold content-left text-left lg:p-10 p-2 mt-5">
+    <div className=" font-bold content-left text-left lg:p-10 p-2 ">
     <h1 className="font-black text-5xl">Beggins At</h1>
     <div className="dropDownShadow w-60 mt-10 md:mt-10  shadow-2xl ">
       
