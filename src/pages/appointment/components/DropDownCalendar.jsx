@@ -12,9 +12,9 @@ const DropDownCalendar = () => {
   };
   return (
     <>
-      <div className=" font-bold text-5xl content-left text-left md:p-10 p-2  ">
+      <div className=" font-bold text-5xl content-left text-left sm:p-10 p-2  ">
         <h1 className="font-black text-5xl">Select a date </h1>
-        <div className=" w-60 content-center shadow-2xl rounded-md md:mt-10 ml-5 mt-10 ">
+        <div className=" w-60 content-center shadow-2xl rounded-md sm:mt-10 ml-5 mt-10 ">
           <Datepicker
 
             asSingle={true}
