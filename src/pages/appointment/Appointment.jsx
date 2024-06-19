@@ -1,9 +1,8 @@
 import React from 'react'
 import SideBar from "../../components/SideBar";
 import NavBar from "../../components/NavBar";
-import DropDownCalendar from './components/DropDownCalendar';
-import DropDownHour from './components/DropDownHour';
 import FirstSectionForm from './components/FirstSectionForm';
+import SecondSectionForm from './components/SecondSectionForm';
 const Appointment = () => {
   return (
    <>
@@ -11,6 +10,7 @@ const Appointment = () => {
    <section className='w-full'>
     <NavBar/>
     <FirstSectionForm/>
+    <SecondSectionForm/>
      <SideBar />
      
    </section>

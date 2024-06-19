@@ -15,15 +15,16 @@ const options = [
 
 const Input = (props) => {
   const { autoComplete = props.autoComplete } = props.selectProps;
-  return <components.Input {...props} autoComplete={autoComplete} />;
+  return <components.Input {...props} autoComplete={autoComplete} className="xl:h-12 font-bold "/>;
 };
 
 const DropDownPacient = (props) => {
   return (
-    <div className=" font-bold content-left text-left sm:p-10 p-2 ">
-        <h1 className="font-black text-5xl">Pacient</h1>
-        <div className="w-60 mt-10 sm:mt-10 shadow-2xl ">
+    <div className=" content-left text-left md:p-10 p-2 ">
+        <h1 className="font-black text-4xl">Pacient</h1>
+        <div className="xl:w-96 w-60 mt-10 xl:mt-10 shadow-2xl font-bold">
     <Select
+    
       components={{ Input }}
       autoComplete="new-password"
       options={options}
