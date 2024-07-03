@@ -4,48 +4,35 @@ const PsychologistCarousel = () => {
   return (
    <>
   
-    <div className=" font-bold content-left text-left md:p-10 p-2 sm:ml-0  ">
-        <h1 className="font-black text-4xl ml-20">Psycholigist</h1>
-        <div className="carousel w-full mt-10">
-  <div id="slide1" className="carousel-item relative w-full justify-around ">
+   <div className="lg:w-full w-96 carousel rounded-box">
+  <div className="carousel-item">
+   <PsychologistCard  title={"PRACTICANTE 1"} image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-citUgg2a7GUhivVmW3rxBRmWOuMMK3VlQ&s"} />
+  </div>
+  <div className="carousel-item">
+  <PsychologistCard  title={"PRACTICANTE 2"} image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-citUgg2a7GUhivVmW3rxBRmWOuMMK3VlQ&s"}/>
 
-           <PsychologistCard image={'https://oed.com.ph/wp-content/uploads/2021/11/Image-53-1.png'} title={'Practicante 1'}/>
-            <PsychologistCard image={'https://oed.com.ph/wp-content/uploads/2021/11/Image-53-1.png'} title={'Practicante 2'}/>
+  </div>
+  <div className="carousel-item">
+  <PsychologistCard  title={"PRACTICANTE 3"} image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-citUgg2a7GUhivVmW3rxBRmWOuMMK3VlQ&s"}/>
 
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide4" className=" btn-circle">❮</a> 
-      <a href="#slide2" className=" btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide2" className="carousel-item relative w-full justify-around">
-  <PsychologistCard image={'https://oed.com.ph/wp-content/uploads/2021/11/Image-53-1.png'} title={'Practicante 3'}/>
-            <PsychologistCard image={'https://oed.com.ph/wp-content/uploads/2021/11/Image-53-1.png'} title={'Practicante 4'}/>
+  </div>
+  <div className="carousel-item">
+  <PsychologistCard  title={"PRACTICANTE 4"} image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-citUgg2a7GUhivVmW3rxBRmWOuMMK3VlQ&s"}/>
 
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide1" className=" btn-circle">❮</a> 
-      <a href="#slide3" className=" btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide3" className="carousel-item relative w-full justify-around">
-  <PsychologistCard image={'https://oed.com.ph/wp-content/uploads/2021/11/Image-53-1.png'} title={'Practicante 5'}/>
-            <PsychologistCard image={'https://oed.com.ph/wp-content/uploads/2021/11/Image-53-1.png'} title={'Practicante 6'}/>
-  
-  <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide2" className=" btn-circle">❮</a> 
-      <a href="#slide4" className=" btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide4" className="carousel-item relative w-full justify-around">
-  <PsychologistCard image={'https://oed.com.ph/wp-content/uploads/2021/11/Image-53-1.png'} title={'Practicante 7'}/>
-            <PsychologistCard image={'https://oed.com.ph/wp-content/uploads/2021/11/Image-53-1.png'} title={'Practicante 8'}/>
+  </div>
+  <div className="carousel-item">
+  <PsychologistCard  title={"PRACTICANTE 5"} image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-citUgg2a7GUhivVmW3rxBRmWOuMMK3VlQ&s"}/>
 
-      <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide3" className=" btn-circle">❮</a> 
-      <a href="#slide1" className=" btn-circle">❯</a>
-    </div>
+  </div>
+  <div className="carousel-item">
+  <PsychologistCard  title={"PRACTICANTE 6"} image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-citUgg2a7GUhivVmW3rxBRmWOuMMK3VlQ&s"}/>
+
+  </div>
+  <div className="carousel-item">
+  <PsychologistCard  title={"PRACTICANTE 7"} image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-citUgg2a7GUhivVmW3rxBRmWOuMMK3VlQ&s"}/>
+
   </div>
 </div>
-      </div>
    </>
   )
 }
