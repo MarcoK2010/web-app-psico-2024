@@ -1,6 +1,6 @@
 import React from "react";
 
-const PsychologistCard = ({image, title}) => {
+const PsychologistCard = ({image, title, content}) => {
   return (
     <>
     <button>
@@ -8,7 +8,7 @@ const PsychologistCard = ({image, title}) => {
   <figure><img src={image}  /></figure>
   <div className="card-body">
     <h2 className="card-title">{title}</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <p>{content}</p>
     <div className="card-actions justify-end">
      
     </div>
