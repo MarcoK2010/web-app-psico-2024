@@ -25,6 +25,7 @@ const PsychologistCarousel = () => {
           
           
           }}
+        
             freeMode={true}
             pagination={{
                   clickable: true
