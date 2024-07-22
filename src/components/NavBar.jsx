@@ -5,7 +5,7 @@ import logo from "../../assets/logo.png";
 const NavBar = () => {
   return (
     <>
-      <div className="drop-shadow-2xl navbar bg-base-100 rounded-lg mx-auto">
+      <div className="drop-shadow-2xl navbar bg-base-100 rounded-lg mx-auto" >
         {/* //! Start */}
         <div className="navbar-start">
           <label htmlFor="my-drawer" className="drawer-button">

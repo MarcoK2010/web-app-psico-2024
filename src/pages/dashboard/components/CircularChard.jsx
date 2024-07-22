@@ -10,7 +10,7 @@ const CircularChard = ({porncentaje}) => {
          <h1 className='font-bold text-2xl '>
          Assistance
          </h1>
-          <div className="radial-progress " style={{ "--value":porncentaje, "--size": "7.5rem", "--thickness": "1rem", }} role="progressbar"><h1 className='text-black text-2xl'>{porncentaje}</h1></div>
+          <div className=" radial-progress " style={{ "--value":porncentaje, "--size": "7.5rem", "--thickness": "1rem", }} role="progressbar"><h1 className='text-black text-2xl '>{porncentaje}</h1></div>
             </div>
           </div>
         </div>

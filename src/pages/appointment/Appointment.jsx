@@ -1,12 +1,7 @@
 import React from 'react'
 import SideBar from "../../components/SideBar";
 import NavBar from "../../components/NavBar";
-import DropDownCalendar from './components/DropDownCalendar';
-import DropDownHour from './components/DropDownHour';
 import FirstSectionForm from './components/FirstSectionForm';
-import axios from "axios";
-
-
 const Appointment = () => {
   
 const url = "http://127.0.0.1:8000//api/v1";
@@ -31,6 +26,7 @@ try {
    <section className='w-full'>
     <NavBar/>
     <FirstSectionForm/>
+    <SecondSectionForm/>
      <SideBar />
      
    </section>
