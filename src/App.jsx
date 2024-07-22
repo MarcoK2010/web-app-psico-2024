@@ -4,6 +4,7 @@ import Login from './pages/login/Login'
 import {useSelector} from 'react-redux'
 import Dashboard from './pages/dashboard/Dashboard';
 import Appointment from './pages/appointment/Appointment';
+import Calendar from './pages/calendar/Calendar'
 
 // Componente principal que define las rutas
 const App = () => {
@@ -12,13 +13,16 @@ const App = () => {
   console.log(taskState)
 
   return (
-<BrowserRouter>
+    
+      <BrowserRouter >
   <Routes>
     <Route path="/" element={      <Login/> } />
     <Route path="/dashboard" element={      <Dashboard/> } />
-    <Route path="appointment" element={      <Appointment/> } />
+    <Route path="/appointment" element={      <Appointment/> } />
+    <Route path="/calendar" element={      <Calendar/> } />
   </Routes>
 </BrowserRouter>
+   
   );
 };
 

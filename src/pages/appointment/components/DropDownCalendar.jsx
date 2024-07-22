@@ -12,16 +12,14 @@ const DropDownCalendar = () => {
   };
   return (
     <>
-      <div className=" font-bold text-5xl content-left text-left md:p-10 p-2  ">
-        <h1 className="font-black text-5xl">Select a date </h1>
-        <div className=" w-60 content-center shadow-2xl rounded-md md:mt-10 ml-5 mt-10 ">
+      <div className=" content-left text-left md:p-10 p-2 md:mr-14 ">
+        <h1 className="font-black text-4xl">Select a date</h1>
+        <div className=" xl:w-96 content-center shadow-2xl rounded-md xl:mt-10 mt-10 xl:h-14 font-bold">
           <Datepicker
-
             asSingle={true}
             value={value}
             onChange={handleValueChange}
             useRange={false}
-            
           />
         </div>
       </div>
