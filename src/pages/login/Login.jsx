@@ -23,7 +23,7 @@ const Login = () => {
         localStorage.setItem("refresh", JSON.stringify({token:''})); 
         return;
       }   
-
+      console.log(refreshToken.token)
       const data = await verifyToken(refreshToken.token);
       console.log(data)
       // if (data && data.access) {
