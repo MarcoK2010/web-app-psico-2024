@@ -2,6 +2,10 @@ import React from 'react'
 import SideBar from "../../components/SideBar";
 import NavBar from "../../components/NavBar";
 import FirstSectionForm from './components/FirstSectionForm';
+
+import SecondSectionForm from './components/SecondSectionForm';
+
+
 const Appointment = () => {
   
 const url = "http://127.0.0.1:8000//api/v1";
