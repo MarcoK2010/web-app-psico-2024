@@ -7,7 +7,7 @@ import ChartCards from "./components/ChartCards";
 const Dashboard = () => {
   return (
     <>
-      <section className="w-full">
+      <section className="w-full" >
         <NavBar />
         <DateCards />
         <ChartCards />

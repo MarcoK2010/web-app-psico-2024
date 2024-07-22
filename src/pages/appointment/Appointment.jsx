@@ -1,9 +1,8 @@
 import React from 'react'
 import SideBar from "../../components/SideBar";
 import NavBar from "../../components/NavBar";
-import DropDownCalendar from './components/DropDownCalendar';
-import DropDownHour from './components/DropDownHour';
 import FirstSectionForm from './components/FirstSectionForm';
+import SecondSectionForm from './components/SecondSectionForm';
 import axios from "axios";
 
 
@@ -31,6 +30,7 @@ try {
    <section className='w-full'>
     <NavBar/>
     <FirstSectionForm/>
+    <SecondSectionForm/>
      <SideBar />
      
    </section>
