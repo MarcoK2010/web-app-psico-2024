@@ -13,8 +13,8 @@ export const authSlice = createSlice({
 		},    
     }
 });
-
+  
 export const {
 	setAccessToken,
 } = authSlice.actions;
-export default authSlice.reducer;
+export default authSlice.reducer; 
