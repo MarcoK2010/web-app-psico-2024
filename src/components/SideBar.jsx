@@ -1,5 +1,7 @@
 import React from "react";
 import "./sideBar.css";
+import { Link } from "react-router-dom";
+
 const SideBar = () => {
   return (
     <>
@@ -19,7 +21,7 @@ const SideBar = () => {
           
           <ul className="menu1 menu p-5 pt-40 w-80  h-full bg-base-200 text-base-content">
               <li className="pb-5">
-                <a className="sideBarItem1  content-center h-16 text-white  font-semibold">
+                <Link to='/' className="sideBarItem1  content-center h-16 text-white  font-semibold">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -35,10 +37,10 @@ const SideBar = () => {
                     />
                   </svg>
                   DashBoard
-                </a>
+                </Link>
               </li>
               <li className="pb-5">
-                <a className="sideBarItem2 content-center h-16 text-white  font-semibold">
+                <Link to='/calendar' className="sideBarItem2 content-center h-16 text-white  font-semibold">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -54,10 +56,10 @@ const SideBar = () => {
                     />
                   </svg>
                   Calendar
-                </a>
+                </Link>
               </li>
               <li className="pb-5">
-                <a className="sideBarItem3  content-center h-16 text-white  font-semibold">
+                <Link to='/appointment' className="sideBarItem3  content-center h-16 text-white  font-semibold">
                   {" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +76,7 @@ const SideBar = () => {
                     />
                   </svg>
                   Add Appointment
-                </a>
+                </Link>
               </li>
 
             </ul>

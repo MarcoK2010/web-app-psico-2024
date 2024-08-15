@@ -7,7 +7,7 @@ function AppointmentCard() {
       <div className="date font-bold text-5xl content-center text-center p-5 ">
         <h1>
           MAY
-          <h1 className="text-black"> 23</h1>
+          <p className="text-black"> 23</p>
         </h1>
       </div>
       <div className="card-body" >
