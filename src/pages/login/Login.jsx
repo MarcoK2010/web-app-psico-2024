@@ -11,9 +11,6 @@ const Login = () => {
   useEffect(() => {
 
 
-  
-
-
     const fetchData = async () => {
       let accessToken = JSON.parse(localStorage.getItem('token'));
       let refreshToken = JSON.parse(localStorage.getItem('refresh'));
@@ -23,7 +20,7 @@ const Login = () => {
         localStorage.setItem("refresh", JSON.stringify({token:''})); 
         return;
       }   
-      console.log(refreshToken.token)
+
       const data = await verifyToken(refreshToken.token);
       console.log(data)
       // if (data && data.access) {
