@@ -1,11 +1,15 @@
 import React from 'react'
 
 import PsychologistCarousel from './PsychologistCarousel'
-
 const SecondSectionForm = () => {
   return (
   <>
-    <PsychologistCarousel/>
+   <div className='block'>
+     <PsychologistCarousel/>
+  
+ 
+   </div>
+      
   </>
   )
 }
