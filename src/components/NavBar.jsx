@@ -2,6 +2,7 @@ import React from "react";
 import "./navBar.css";
 import SideBar from "./SideBar";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <>
@@ -108,7 +109,9 @@ const NavBar = () => {
                     <a>Settings</a>
                   </li> */}
                   <li>
-                    <a>Logout</a>
+                    
+                  <Link to='/'><a>  Logout</a></Link>
+                  
                   </li>
                 </ul>
               </div>

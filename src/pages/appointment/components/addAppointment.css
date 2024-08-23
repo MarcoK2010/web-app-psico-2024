@@ -1,0 +1,7 @@
+.buttonAddAppointment{
+    background-color: #ff076f !important ;
+    color: white !important;
+}
+.buttonAddAppointment:hover{
+    background-color:#ee0566 !important;
+}

@@ -1,9 +1,9 @@
 import React from "react";
-
+import './psychologistCard.css'
 const PsychologistCard = ({image, title, content}) => {
   return (
     <>
-    <button>
+    <button className="buttonCard">
          <div className="card  bg-base-100 shadow-xl">
   <figure><img src={image}  /></figure>
   <div className="card-body">

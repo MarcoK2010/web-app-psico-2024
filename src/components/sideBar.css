@@ -2,11 +2,16 @@
     background-color: #0049a7 !important;
 
 }
-.sideBarItem1{
-    background-color: #ff076f !important;
+.sideBarItem3:hover{
+    border: 2px solid ;
+
+}
+.sideBarItem2:hover{
+    border: 2px solid ;
 
 }
 .sideBarItem1:hover{
-    background-color: #c20855 !important;
+    border: 2px solid ;
+
 }
 

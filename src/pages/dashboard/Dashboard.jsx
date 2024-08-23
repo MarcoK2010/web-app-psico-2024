@@ -11,7 +11,7 @@ const Dashboard = () => {
         <NavBar />
         <DateCards />
         <ChartCards />
-        <SideBar />
+        <SideBar color1={'#ff076f'}/>
       </section>
     </>
   );

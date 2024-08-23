@@ -2,7 +2,7 @@ import React from "react";
 import "./sideBar.css";
 import { Link } from "react-router-dom";
 
-const SideBar = () => {
+const SideBar = ({color1 ,color2, color3}) => {
   return (
     <>
 
@@ -21,7 +21,7 @@ const SideBar = () => {
           
           <ul className="menu1 menu p-5 pt-40 w-80  h-full bg-base-200 text-base-content">
               <li className="pb-5">
-                <Link to='/' className="sideBarItem1  content-center h-16 text-white  font-semibold">
+                <Link to='/dashboard' className="sideBarItem1  content-center h-16 text-white  font-semibold" style={{backgroundColor:color1}}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -40,7 +40,7 @@ const SideBar = () => {
                 </Link>
               </li>
               <li className="pb-5">
-                <Link to='/calendar' className="sideBarItem2 content-center h-16 text-white  font-semibold">
+                <Link to='/calendar' className="sideBarItem2 content-center h-16 text-white  font-semibold" style={{backgroundColor:color2}}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -59,7 +59,7 @@ const SideBar = () => {
                 </Link>
               </li>
               <li className="pb-5">
-                <Link to='/appointment' className="sideBarItem3  content-center h-16 text-white  font-semibold">
+                <Link to='/appointment' className="sideBarItem3  content-center h-16 text-white  font-semibold" style={{backgroundColor:color3}}>
                   {" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -73,6 +73,7 @@ const SideBar = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                      
                     />
                   </svg>
                   Add Appointment

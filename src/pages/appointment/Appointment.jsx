@@ -1,6 +1,7 @@
 import React from 'react'
 import SideBar from "../../components/SideBar";
 import NavBar from "../../components/NavBar";
+import AddAppoinment from './components/AddAppoinment';
 import FirstSectionForm from './components/FirstSectionForm';
 
 import SecondSectionForm from './components/SecondSectionForm';
@@ -31,7 +32,8 @@ try {
     <NavBar/>
     <FirstSectionForm/>
     <SecondSectionForm/>
-     <SideBar />
+    <AddAppoinment/>
+     <SideBar color3={'#ff076f'}/>
      
    </section>
     
