@@ -7,8 +7,8 @@ const SideBar = ({color1 ,color2, color3}) => {
     <>
 
 
-      <div className="drawer" >
-        <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+      <div className="drawer " >
+        <input id="my-drawer" type="checkbox" className="drawer-toggle " />
         <div className="drawer-content">
           
         </div>

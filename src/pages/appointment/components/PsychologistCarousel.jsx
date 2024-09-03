@@ -30,8 +30,8 @@ const PsychologistCarousel = () => {
             pagination={{
                   clickable: true
               }}
-              modules={[FreeMode, Pagination]}
-              className='max-w-[120%] lg:max-w-[60%]'
+              modules={[FreeMode, ]}
+              className='max-w-[120%] lg:max-w-[60%] '
           >
               {ServiceData.map((item) => (
                 <SwiperSlide key={item.title}>
