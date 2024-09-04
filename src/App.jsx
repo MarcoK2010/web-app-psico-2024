@@ -10,7 +10,7 @@ import Appointment from './pages/appointment/Appointment';
 const App = () => {
   //pidiendo el estado inicial que se encuentra en slice.js
   const taskState = useSelector(state => state.task)
-  console.log(taskState)
+ 
 
   return (
     

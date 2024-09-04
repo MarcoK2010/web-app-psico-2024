@@ -29,6 +29,10 @@ const LoginForm = () => {
       // Hacemos la solicitud POST usando axios
       const response = await axios.post(url, loginData);
       console.log("Respuesta del servidor", response.data);
+
+          // Almacenar tokens en localStorage
+    localStorage.setItem('access', JSON.stringify(response.data.access));
+    localStorage.setItem('refresh', JSON.stringify(response.data.refresh));
       
       navigate("/dashboard")
       

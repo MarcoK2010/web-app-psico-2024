@@ -12,24 +12,19 @@ const Login = () => {
 
 
     const fetchData = async () => {
-      let accessToken = JSON.parse(localStorage.getItem('token'));
+      let accessToken = JSON.parse(localStorage.getItem('access'));
       let refreshToken = JSON.parse(localStorage.getItem('refresh'));
       if (!accessToken && !refreshToken) {
         console.log("No existe Token");
-        localStorage.setItem("token", JSON.stringify({token:''})); 
+        localStorage.setItem("access", JSON.stringify({token:''})); 
         localStorage.setItem("refresh", JSON.stringify({token:''})); 
         return;
       }   
 
       const data = await verifyToken(refreshToken.token);
       console.log(data)
-      // if (data && data.access) {
-      //     localStorage.setItem('Token', data.access);
-      //     dispatch(setAccessToken(data.access))
-      //     console.log('Nuevo token de acceso guardado:', data.access);
-      // }
     }
-  
+    
     fetchData().catch(console.error);
 
   },[]);
