@@ -42,7 +42,9 @@ function AppointmentCard() {
             <div className="date font-bold text-5xl content-center text-center p-5">
               <h1>
                 {new Date(appointment.date).toLocaleString('default', { month: 'short' }).toUpperCase()}
-                <h1 className="text-black">{new Date(appointment.date).getDate()}</h1>
+              </h1>
+              <h1 className="text-black">
+                {new Date(appointment.date).getDate()}
               </h1>
             </div>
             <div className="card-body">
