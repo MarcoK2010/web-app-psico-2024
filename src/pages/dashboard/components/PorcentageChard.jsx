@@ -32,9 +32,9 @@ const PorcentageChard = () => {
     fetchData();
   }, []);
 
-  // Asegúrate de que 'data' tenga la estructura esperada
+
   const appointments = data ? data.appointments : 0;
-  const totalAppointments = data ? data.totalAppointments : 1; // Evitar división por cero
+  const totalAppointments = data ? data.totalAppointments : 1;
   const asistenciaPorcentaje = (appointments / totalAppointments) * 100;
 
   return (
