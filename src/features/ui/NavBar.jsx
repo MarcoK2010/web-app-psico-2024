@@ -1,6 +1,5 @@
 import React from "react";
 import "./navBar.css";
-import SideBar from "./SideBar";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 const NavBar = () => {
@@ -99,15 +98,6 @@ const NavBar = () => {
                   tabIndex={0}
                   className="p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
                 >
-                  {/* <li>
-                    <a className="justify-between">
-                      Profile
-                    
-                    </a>
-                  </li>
-                  <li>
-                    <a>Settings</a>
-                  </li> */}
                   <li>
                     
                   <Link to='/'><a>  Logout</a></Link>

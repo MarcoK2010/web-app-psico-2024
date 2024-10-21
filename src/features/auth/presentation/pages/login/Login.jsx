@@ -1,16 +1,11 @@
 import React, {useEffect} from "react";
-import LoginForm from "./components/LoginForm";
-import TextForm from "./components/TextForm";
-import { useDispatch } from "react-redux";
-import { setAccessToken } from "@/redux/slices/authslice";
-import {verifyToken} from "../../api/auth.js"; 
+import LoginForm from "../../components/LoginForm.jsx";
+import TextForm from "../../components/TextForm.jsx";
+import {verifyToken} from "../../../data/api/auth.js"; 
 
 const Login = () => {
-  const dispatch = useDispatch();
 
   useEffect(() => {
-
-
     const fetchData = async () => {
       let accessToken = JSON.parse(localStorage.getItem('access'));
       let refreshToken = JSON.parse(localStorage.getItem('refresh'));
