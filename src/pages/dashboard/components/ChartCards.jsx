@@ -15,11 +15,9 @@ const ChartCards = () => {
 
         <CircularChard porncentaje={68} />
 
-        <CircularChard porncentaje={48}/>
+        <TextCard texto={"List Appointments"} />
 
-        <TextCard texto={"List Appointments"}/>
-
-        <TextCard texto={"Generate Report"}/>
+        <TextCard texto={"Generate Report"} />
       </div>
     </div>
   );

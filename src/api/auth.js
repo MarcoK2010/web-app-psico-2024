@@ -1,5 +1,6 @@
 import axios from "axios";
 
+
 export const url = "http://127.0.0.1:8000/api/v1/";
 
 export const verifyToken = async (refreshToken) => {
@@ -7,7 +8,7 @@ export const verifyToken = async (refreshToken) => {
   const data = {
     token: refreshToken, // Enviar el refreshToken en el cuerpo de la solicitud
   };
-  try {
+  try { 
     const response = await axios.post(urlAxios, data);
     console.log("Respuesta del servidor:", response.data);
     return response.data; // Retornar la respuesta para utilizarla en otra parte
